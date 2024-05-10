@@ -1,0 +1,228 @@
+body {
+  text-align: center;
+  padding: 30px;
+   font-family: Arial;
+  margin-top: 3%;
+  height: 100%;
+   width: 100%;
+   background-color: white;
+
+
+}
+.contanier{
+  width: 100%;
+ 
+}
+.a-box {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  margin-left: 10px;
+
+}
+
+ 
+  .img-container {
+    height: 94px;
+    width: 340px;
+    /* overflow: hidden; */
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: -36px;
+    padding: 0px 0px 82px 0px;
+}
+
+.img-container img {
+  height: 213px;
+  width: 170px;
+  margin: 37px -491px -118px -55px;
+  
+  }
+
+.inner-skew {
+  display: inline-block;
+  border-radius: 20px;
+  /* overflow: hidden; */
+  padding: 0px;
+  transform: skew(0deg, -1deg);
+  font-size: 0px;
+  margin: 30px 0px 0px 0px;
+  /* background: lightgoldenrodyellow; */
+  height: 250px;
+  width: 189px;
+}
+
+.text-container {
+  padding: 120px 4px 84px 0px;
+    line-height: 19px;
+    padding: 160px 10px 82px 4px;
+    margin: -343px 172px 38px -9px;
+    line-height: 19px;
+ }
+
+.text-container h1 {
+  
+  padding: 16px 8px 8px 55px;
+  margin: 26px -16px -25px -76px;
+}
+.price{
+  border-radius: 50px 1px 50px 0px;
+  text-align: center;
+  font-size: 58px;
+  color: #00005c;
+  padding-left: 17px;
+  padding-right: -12px;
+  font-family: fantasy;
+}
+.numberQuant{
+  position: relative;
+  color: red;
+  top: 74px;
+  font-size: 23px;
+  /* border: solid; */
+  border-radius: 44px;
+  width: 46px;
+  padding: 13px 12px 16px 17px;
+  margin-right: 16px;
+  margin-top: -160px;
+  background-color: #00005c;
+  font-family: cursive;
+  }
+  /* transform: scale(0.5);*/
+
+ 
+.quantite{
+  color: white;
+  background-color: darkgreen;
+  padding-left: 6px;
+  padding-right: 12px;
+  padding-bottom: 0px;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 32px;
+  position: relative;
+  top: -88px;
+  left: -140px;
+
+  
+}
+ 
+.nameProduct{
+  border-radius: 0px 101px 0px 98px;
+  margin-left: -40px;
+  font-family: system-ui;
+  position: relative;
+  background-color: white;
+  bottom: -28px;
+  padding: 3px 0px 6px 22px;
+}
+.sectionOne{
+  width:85%;
+  float: inline-end;
+}
+.sectionTwo{
+  float: inline-end;
+  width: 67%;
+  /* border-radius: 20px; */
+  background-color: mediumseagreen;
+  /* margin-top: 32px; */
+  /* margin-left: -46px; */
+  margin:-110px -4px 24px 107px;
+
+}
+.sectionTwo .a-box{
+  width: 82%;
+  margin-right: -31px;
+  margin-top: -22px;
+
+}
+.sectionTwo .img-container img {
+  /* height: 182px; */ 
+  /* width: 156px; */
+  /* font-size: 89%; */
+  margin: 60px -13px -46px 34px;
+  }
+
+/* .sectionThree{
+width: 35%;
+}
+.sectionFour{
+  float: inline-end;
+  width: 40%;
+  margin-top: 32px;
+}
+.sectionFour .a-box{
+  width: 30%;
+  } */
+
+  .sectionFive{
+    height: 286px;
+    border: 1px solid orangered;
+    background-color: indigo;
+    }
+    .sectionFive .a-box{
+      width: 30%;
+      margin-top: 4px;
+          }
+/* 
+.sectionThree .a-box{
+  display: inline-block;
+  width: 89%;
+  text-align: center;
+  margin-right: 216px;
+  margin-top: 8px;
+}
+.sectionThree .text-container{
+  padding: 297px 11px 272px 0px;
+  margin: -435px 113px 43px -105px;
+  background: mediumseagreen;
+
+}
+.sectionThree .img-container img{
+  height: 313px;
+  position: relative;
+  top: -54px;
+  left: -74px;
+  
+}
+.sectionThree .img-container{
+  height: 260px;
+  width: 213px;
+  overflow: hidden;
+   display: inline;
+  margin-left: -49px;
+  margin-top: -40px;
+} */
+
+
+#hexagon { 
+  width: 150px;
+  height: 75px;
+  background: #e59f0e;
+  position: relative;
+  margin: -7px auto;
+} 
+#hexagon:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 55px solid #e59f0e;
+}
+#hexagon:after {
+content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 50px solid #e59f0e;
+  
+}
+ 

@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 3%;
+  height: 917px;
+  background: linear-gradient(1.7deg, rgb(0 179 255) 31.9%, rgb(25 100 120) 83%);
+}
+.contanier{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  }
+.sectionOne{
+  width: 33%;
+  height: 137%;
+  border: 2px dashed darkorange;
+  display: flex;
+
+
+
+ }
+.img-container{
+  width: 50%;
+  }
+.img-container img {
+  width: 192px;
+  height: 192px;
+  margin:-11px -25px 13px -82px;
+}
+.imageOne{
+   margin: 20px 27px 16px -245px
+  /* transform: skew(19deg, -28deg); */
+}
+.imagetwo{
+  margin: -207px 155px 9px 22px;
+  /* transform: scaleX(1.4); */
+
+}
+.imageThree{
+  margin: 19px -367px 13px 44px;
+}
+.detailsProduct{
+  /* width: 0%; */
+  margin: 141px -277px -5px -18px;
+}
+.nameProduct{
+  font-size: 26px;
+  color: cornsilk;
+  margin-top: -88%;
+  width: 358px;
+  margin-right: 10%;
+}
+.price{
+  font-size: 66px;
+  /* color: white; */
+  transform: scale(1);
+  border-radius: 25px;
+  /* border-bottom: 1px dotted; */
+  /* border-top: 1px dotted; */
+  /* border-left: 13px double; */
+  /* border-right: 13px double; */
+  /* display: flex; */
+  /* border: 2px solid red; */
+  /* padding: 33px 69px 34px 103px; */
+  margin:-79px 56px 310px -8px;
+  
+}
+.oldPrice{
+  font-size: 38px;
+  color: white;
+  position: relative;
+  bottom: 416px;
+  right: -1px;
+}
+.quantNumber{
+  font-size: 25px;
+  background: black;
+  padding: 5px 12px 4px 12px;
+  border: 3px;
+  color: white;
+  border-radius: 16px;
+  position: absolute;
+  top: 287px;
+  font-style: italic;
+  right: 269px;
+
+}
+.topCircle{
+  width: 398px;
+  height: 344px;
+  border: 1px solid red;
+  background: linear-gradient(1.7deg, rgb(43, 150, 356) 31.9%, rgb(67, 233, 184) 83%);
+  margin-top: -462px;
+  border-radius: 71px 29px 64px 46px;
+  position: relative;
+  top: 513px;
+  border-bottom-width: 22px;
+  border-bottom-style: groove;
+  border-left-style: dotted;
+  border-top-style: groove;
+  border-top-width: 20px;
+  border-right-style: dotted;
+  right: 81px;
+   }
+   .topCircle2{
+    width: 0px;
+    height: 0px;
+    border: 110px solid rgb(202 171 197 / 36%);
+    margin-top: -205px;
+    border-radius: 125px;
+    position: relative;
+    top: 394px;
+    right: 278px;
+     }

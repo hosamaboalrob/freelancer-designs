@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 3%;
+  background: 
+    linear-gradient(180deg, rgba(248, 184, 139,0) 20%, rgba(248, 184, 139,.1) 20%, rgba(248, 184, 139,.1) 40%, rgba(248, 184, 139,.2) 40%, rgba(248, 184, 139,.2) 60%, rgba(248, 184, 139,.4) 60%, rgba(248, 184, 139,.4) 80%, rgba(248, 184, 139,.5) 80%),
+    linear-gradient(45deg, rgba(250, 248, 132,.3) 20%, rgba(250, 248, 132,.4) 20%, rgba(250, 248, 132,.4) 40%, rgba(250, 248, 132,.5) 40%, rgba(250, 248, 132,.5) 60%, rgba(250, 248, 132,.6) 60%, rgba(250, 248, 132,.6) 80%, rgba(250, 248, 132,.7) 80%),
+    linear-gradient(-45deg, rgba(186, 237, 145,0) 20%, rgba(186, 237, 145,.1) 20%, rgba(186, 237, 145,.1) 40%, rgba(186, 237, 145,.2) 40%, rgba(186, 237, 145,.2) 60%, rgba(186, 237, 145,.4) 60%, rgba(186, 237, 145,.4) 80%, rgba(186, 237, 145,.6) 80%),
+    linear-gradient(90deg, rgba(178, 206, 254,0) 20%, rgba(178, 206, 254,.3) 20%, rgba(178, 206, 254,.3) 40%, rgba(178, 206, 254,.5) 40%, rgba(178, 206, 254,.5) 60%, rgba(178, 206, 254,.7) 60%, rgba(178, 206, 254,.7) 80%, rgba(178, 206, 254,.8) 80%),
+    linear-gradient(-90deg, rgba(242, 162, 232,0) 20%, rgba(242, 162, 232,.4) 20%, rgba(242, 162, 232,.4) 40%, rgba(242, 162, 232,.5) 40%, rgba(242, 162, 232,.5) 60%, rgba(242, 162, 232,.6) 60%, rgba(242, 162, 232,.6) 80%, rgba(242, 162, 232,.8) 80%),
+    linear-gradient(180deg, rgba(254, 163, 170,0) 20%, rgba(254, 163, 170,.4) 20%, rgba(254, 163, 170,.4) 40%, rgba(254, 163, 170,.6) 40%, rgba(254, 163, 170,.6) 60%, rgba(254, 163, 170,.8) 60%, rgba(254, 163, 170,.8) 80%, rgba(254, 163, 170,.9) 80%)
+;
+  background-color: rgb(254, 163, 170);
+  background-size: 100% 100%;
+  min-height: 100%;
+
+
+   margin-left: 20%;
+  margin-right: 20%;
+}
+.contanier{
+  width: 100%;
+  }
+.sectionOne{
+   width: 80%;
+  height: 70%;
+  border: 20px solid green;
+  display: flex;
+ }
+.img-container{
+  width: 50%;
+  height: 500px;
+  display: flex;
+}
+.img-container img {
+  width: 193px;
+  height: 261px;
+  margin: 116px -65px 24px -50px;
+}
+.imageOne{
+  margin: -8px 268px 16px -255px;
+  transform: scaleX(1.5);
+}
+.imagetwo{
+  margin: 20px 262px 9px 22px;
+  transform: rotate3d(30, 14, 16, -29deg);
+
+}
+.imageThree{
+  margin: 19px -367px 13px 44px;
+}
+.detailsProduct{
+  width: 30%;
+  margin: 141px -277px -5px -18px;
+}
+.nameProduct{
+  font-size: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  /* font-weight: 100; */
+  margin-top: -71px;
+  margin-left: -356px;
+  /* background-color: #ad7100; */
+  border-radius: 63px 63px 108px 108px;
+  padding: 15px;
+  border: 24px solid darkred;
+}
+.price{
+  font-size: 172px;
+  color: #db0909;
+  font-family: fangsong;
+  font-weight: bold;
+  padding: 26px 35px 30px 52px;
+  margin: -183px 240px 154px -19px;
+  position: relative;
+
+}
+.oldPrice{
+  font-size: 37px;
+  color: #db0909;
+  /* font-family: cursive; */
+  position: relative;
+  bottom: 262px;
+  left: -200px;
+}
+.quantNumber{
+  font-size: 25px;
+  background: black;
+  padding: 5px 12px 4px 12px;
+  border: 3px;
+  color: white;
+  border-radius: 16px;
+  position: absolute;
+  top: 179px;
+  left: 826px;
+
+}
+hr{
+ 
+  position: absolute;
+  left: 716px;
+  bottom: 137px;
+ width: 2px;
+
+
+  border: 0;
+  height: 326px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+.topCircle{
+   width: 0px;
+  height: 0px;
+  border: 110px solid rgb(222 204 58 / 104%);
+  margin-top: -241px;
+  border-radius: 22px;
+  position: relative;
+  top: 659px;
+  right: 505px;
+   }
+   .topCircle2{
+    width: 0px;
+    height: 0px;
+    border: 110px solid rgb(222 204 58 / 104%);
+    margin-top: -205px ;
+    border-radius: 125px;
+    position: relative;
+    top: 114px;
+    right: -66px;
+     }

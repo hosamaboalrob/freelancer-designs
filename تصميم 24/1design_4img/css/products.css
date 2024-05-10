@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 3%;
+  height: 917px;
+  background: linear-gradient(1.7deg, rgb(143 183 200) 31.9%, rgb(18 178 45) 83%);
+}
+.contanier{
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 8%;
+  border: 1px solid black;
+  }
+.sectionOne{
+  width:45%;
+  height: 137%;
+  /* border: 1px double #b70707; */
+  display: flex;
+  margin-right: 40px;
+  margin-top: 23px;
+
+ }
+.img-container{
+  width: 50%;
+ 
+  }
+.img-container img {
+  width: 192px;
+  height: 192px;
+  margin:-11px -21px 13px -82px;
+}
+.imageOne{
+   margin: 20px 27px 16px -245px
+  /* transform: skew(19deg, -28deg); */
+}
+.imagetwo{
+  margin: -207px 155px 9px 22px;
+  /* transform: scaleX(1.4); */
+
+}
+.imageThree{
+  margin: 19px -367px 13px 44px;
+}
+.detailsProduct{
+  /* width: 0%; */
+  margin: 141px -277px -5px -18px;
+}
+.nameProduct{
+    font-size: 26px;
+    font-weight: 900;
+    color: indigo;
+    margin-top: -148%;
+    width: 358px;
+    margin-right: 2%;
+}
+.price{
+  font-size: 66px;
+  color: midnightblue;
+  transform: scale(1);
+  border-radius: 25px;
+  /* border-bottom: 1px dotted; */
+  /* border-top: 1px dotted; */
+  /* border-left: 13px double; */
+  /* border-right: 13px double; */
+  /* display: flex; */
+  /* background: darkred; */
+  /* border: 2px solid red; */
+   padding: 17px 8px 23px 0px;
+  margin: -82px 129px 308px 90px;
+}
+.oldPrice{
+  font-size: 38px;
+  color: crimson;
+  position: relative;
+  bottom: 436px;
+  right: -18px;
+  font-family: fantasy;
+
+}
+.quantNumber{
+  font-size: 25px;
+  background: #4B2061;
+  padding: 5px 12px 4px 12px;
+  border: 3px;
+  color: white;
+  /* border-radius: 16px; */
+  position: absolute;
+  top: 340px;
+  font-style: italic;
+  right: 399px;
+}
+.topCircle{
+  width: 398px;
+  height: 344px;
+  border: 1px solid red;
+  background: linear-gradient(1.7deg, rgb(43, 150, 356) 31.9%, rgb(67, 233, 184) 83%);
+  margin-top: -462px;
+  border-radius: 71px 29px 64px 46px;
+  position: relative;
+  top: 513px;
+  border-bottom-width: 22px;
+  border-bottom-style: groove;
+  border-left-style: dotted;
+  border-top-style: groove;
+  border-top-width: 20px;
+  border-right-style: dotted;
+  right: 81px;
+   }
+   .topCircle2{
+    width: 0px;
+    height: 0px;
+    border: 110px solid rgb(202 171 197 / 36%);
+    margin-top: -205px;
+    border-radius: 125px;
+    position: relative;
+    top: 394px;
+    right: 278px;
+     }

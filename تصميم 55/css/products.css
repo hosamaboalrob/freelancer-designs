@@ -1,0 +1,189 @@
+body {
+  text-align: center;
+    font-family: Arial;
+  margin-top: 3%;
+  /* background: linear-gradient(1.7deg, rgb(43, 150, 356) 31.9%, rgb(67, 233, 184) 83%); */
+  background-color: white;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+.contanier{
+  width: 100%;
+  height: 726px;
+  }
+.sectionOne{
+   width: 110%;
+  height: 70%;
+  border: 20px solid #581d0af5;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.img-container{
+  width: 50%;
+  height: 500px;
+  display: flex;
+}
+.img-container img {
+  width: 108px;
+  height: 224px;
+  margin: 95px -30px 11px -86px;
+}
+.imageBackground img{
+  height: 345px;
+  width: 48%;
+  position: absolute;
+}
+.circle {
+  position: absolute;
+  height: 20vh;
+  left: 570px;
+  width: 30vh;
+  top: 387px;
+}
+ 
+
+.imageOne{
+  margin: -8px 264px 16px -255px;
+  transform: scaleX(1.5);
+  position: relative;
+  left: -128px;
+  bottom: -20px;
+}
+.imagetwo{
+  margin: 69px 585px 9px 22px;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  transform: rotate3d(10, 1, 2, 38deg);
+  
+}
+.imageThree{
+  margin: 7px -506px 13px 44px;
+  position: relative;
+  left: 140px;
+}
+.detailsProduct{
+  width: 30%;
+  margin: 100px 100px -5px -18px;
+  background: linear-gradient(1.7deg, rgb(202 229 255 / 85%) 31.9%, rgb(201 201 201 / 90%) 83%);
+  height: 293px;
+  border-radius: 50px;
+  border-left: 7px double red;
+  border-right: 7px double red;
+}
+.imageOne .nameProduct{
+     
+  font-size: 24px;
+  font-family: system-ui;
+  color: green;
+   position: relative;
+  top: 327px;
+  left: -66px;
+  border-radius: 50px;
+  position: absolute;
+ }
+  .nameProductTwo{
+  font-size: 28px;
+  font-family: system-ui;
+  color: green;
+   position: relative;
+  top:455px;
+  left: 365px;
+  border-radius: 50px;
+  position: absolute;
+  }
+ .imageThree .nameProduct{
+     
+  font-size: 26px;
+  font-family: system-ui;
+  color: green;
+   position: relative;
+  top: 384px;
+  left: -45px;
+  border-radius: 50px;
+  position: absolute;
+ }
+.price{
+   font-size: 66px;
+  color: red;
+  transform: scale(1);
+   /* border-radius: 25px; */
+  font-family: fantasy;
+  padding: 26px 35px 30px 52px;
+  margin: 60px 20px 3px 0px;
+  position: absolute;
+
+}
+.priceThree{
+  font-size: 66px;
+  color: indigo;
+  transform: scale(1);
+   border-radius: 25px;
+  font-family: fantasy;
+  padding: 26px 35px 30px 52px;
+  margin: 60px 20px 3px 0px;
+  position: absolute;
+  bottom: 424px;
+  right: 360px;
+  border-left: 5px double red;
+  border-right: 5px double red;
+  border-bottom: 5px double;
+  border-top: 5px double;
+  padding: 2px 3px 3px 7px;
+
+}
+.priceTwo{
+  font-size: 66px;
+  color: indigo;
+  transform: scale(1);
+   border-radius: 25px;
+  font-family: fantasy;
+  padding: 26px 35px 30px 52px;
+  margin: 60px 20px 3px 0px;
+  position: absolute;
+  bottom: 354px;
+  right: 835px;
+  border-left: 5px double red;
+  border-right: 5px double red;
+  border-bottom: 5px double;
+  border-top: 5px double;
+  padding: 2px 3px 3px 7px;
+}
+.priceOne{
+  font-size: 66px;
+  color: indigo;
+  transform: scale(1);
+   border-radius: 25px;
+  font-family: fantasy;
+   margin: 60px 20px 3px 0px;
+  position: absolute;
+  bottom: 441px;
+  right: 634px;
+  border-left: 5px double red;
+  border-right: 5px double red;
+  border-bottom: 5px double;
+  border-top: 5px double;
+  padding: 2px 3px 3px 7px;
+
+}
+.oldPrice{
+  font-size: 37px;
+  color: red;
+  font-family: cursive;
+  position: relative;
+  bottom: 145px;
+  left: 22px;
+}
+.quantNumber{
+  font-size: 25px;
+  background: green;
+  padding: 5px 12px 4px 12px;
+  border: 3px;
+   color: yellow;
+  border-radius: 16px;
+  position: absolute;
+  top: 313px;
+  font-style: italic;
+  left: 825px;
+}

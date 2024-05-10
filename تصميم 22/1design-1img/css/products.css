@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 3%;
+  background: linear-gradient(1.7deg, rgb(255 213 213) 31.9%, rgb(4 145 217) 83%);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.contanier{
+  width: 100%;
+  }
+.sectionOne{
+   width: 80%;
+  height: 70%;
+  border: 20px solid green;
+  display: flex;
+ }
+.img-container{
+  width: 50%;
+  height: 500px;
+  display: flex;
+}
+.img-container img {
+  width: 167px;
+  height: 322px;
+  margin: 78px 72px 13px -82px;
+}
+.imageOne{
+  margin: 18px 320px 16px -255px;
+  transform: scaleX(1.5);
+}
+.imagetwo{
+  margin: 20px -280px 9px 22px;
+  transform: scaleX(1.5);
+
+}
+.imageThree{
+  margin: 19px -367px 13px 44px;
+}
+.detailsProduct{
+  width: 30%;
+  margin: 141px -277px -5px -18px;
+}
+.nameProduct{
+  font-size: 34px;
+  font-family: system-ui;
+  color: firebrick;
+  margin-top: -165%;
+  width: 186px;
+  font-weight: bold;
+  margin-right: 95%;
+}
+.price{
+  /* background-color: red; */
+  font-size: 66px;
+  color: red;
+  transform: scale(1);
+  border-radius: 25px;
+  /* display: flex; */
+  border: 2px solid red;
+  padding: 33px 66px 33px 98px;
+  margin: 28px 198px 5px 15px;
+
+}
+.oldPrice{
+  font-size: 37px;
+  color: red;
+   position: relative;
+  bottom: 135px;
+  right: 150px;
+}
+.quantNumber{
+  font-size: 25px;
+  background: black;
+  padding: 5px 12px 4px 12px;
+  border: 3px;
+   color: white;
+  border-radius: 16px;
+  position: absolute;
+  top: 313px;
+  font-style: italic;
+  left: 825px;
+}
+.topCircle{
+  width: 398px;
+  height: 344px;
+  border: 1px solid red;
+  background: linear-gradient(1.7deg, rgb(43, 150, 356) 31.9%, rgb(67, 233, 184) 83%);
+  margin-top: -462px;
+  border-radius: 71px 29px 64px 46px;
+  position: relative;
+  top: 513px;
+  border-bottom-width: 22px;
+  border-bottom-style: groove;
+  border-left-style: dotted;
+  border-top-style: groove;
+  border-top-width: 20px;
+  border-right-style: dotted;
+  right: 81px;
+   }
+   .topCircle2{
+    width: 0px;
+    height: 0px;
+    border:110px solid rgb(202 171 197 / 36%);
+    margin-top: -205px;
+    border-radius: 125px;
+    position: relative;
+    top: 594px;
+    right: 238px;
+     }

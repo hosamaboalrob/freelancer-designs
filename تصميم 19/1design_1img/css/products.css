@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 3%;
+  /* background: linear-gradient(1.7deg, rgb(224 75 5) 31.9%, rgb(217 4 4) 83%); */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.contanier{
+  width: 100%;
+  }
+.sectionOne{
+   width: 127%;
+  height: 70%;
+  border: 20px solid green;
+  display: flex;
+ }
+.img-container{
+  width: 50%;
+  height: 500px;
+  display: flex;
+}
+.img-container img {
+  width: 257px;
+  height: 342px;
+  margin: 79px 72px 3px -156px;
+}
+.imageOne{
+  margin: 18px 515px 16px -255px;
+  transform: skew(14deg, -5deg);
+}
+.imagetwo{
+  margin: 61px -51px 9px 22px;
+  transform: scaleX(1.4);
+
+}
+.imageThree{
+  margin: 24px -369px 19px -26px;
+}
+.detailsProduct{
+  width: 80%;
+  margin: 141px -277px -5px -18px;
+}
+.nameProduct{
+  font-size: 50px;
+  color: red;
+  margin-top:4%;
+  width:358px;
+  margin-right:24%;
+  position: absolute;
+}
+.price{
+  font-size: 53px;
+  color: white;
+  font-family: math;
+  width: 192px;
+  transform: scale(.8);
+  background-color: red;
+  margin-right: 287px;
+  margin-top: 16px;
+  border-radius: 105px 204px 193px 131px;
+  padding: 36px;
+  /* display: flex; */
+  border: 26px double yellow;
+  /* padding: 60px 29px 35px 225px; */
+  /* margin: 10px 36px 12px 287px; */
+}
+.oldPrice{
+  font-size: 49px;
+  border-radius: 62px;
+  padding: 11px;
+  background-color: green;
+  position: relative;
+  bottom: 282px;
+  right: -16px;
+   display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+del:after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 12px;
+  color: white;
+  width: 80%;
+  height: calc(43%);
+  border-top: 8px solid red;
+  transform: rotate(-15deg);
+  opacity: 92%;
+  }
+
+
+.quantNumber{
+  font-size: 25px;
+  background: black;
+  padding: 5px 12px 4px 12px;
+  border: 3px;
+   color: red;
+  border-radius: 16px;
+  position: absolute;
+  top: 313px;
+  font-style: italic;
+  left: 825px;
+}
+.topCircle{
+  width: 398px;
+  height: 344px;
+  border: 1px solid red;
+  background: linear-gradient(1.7deg, rgb(43, 150, 356) 31.9%, rgb(67, 233, 184) 83%);
+  margin-top: -462px;
+  border-radius: 71px 29px 64px 46px;
+  position: relative;
+  top: 513px;
+  border-bottom-width: 22px;
+  border-bottom-style: groove;
+  border-left-style: dotted;
+  border-top-style: groove;
+  border-top-width: 20px;
+  border-right-style: dotted;
+  right: 81px;
+   }
+   .topCircle2{
+    width: 0px;
+    height: 0px;
+    border:110px solid rgb(202 171 197 / 36%);
+    margin-top: -205px;
+    border-radius: 125px;
+    position: relative;
+    top: 594px;
+    right: 238px;
+     }
+
+     .shape-outer {
+      display: flex;
+      flex-shrink: 0;
+      height: calc(150px + 7vw);
+      width: calc(150px + 8vw);
+      /* margin: 25px; */
+      background-color: red;
+      }
+  .octagon {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    		clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
